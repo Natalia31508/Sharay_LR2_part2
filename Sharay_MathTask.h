@@ -8,7 +8,7 @@ bool UserInput(string input) {
         int number = stod(input);
         if (number < 0)
         return false;
-｝
+    }
 catch(...)
 {return false;}
 return true;}
